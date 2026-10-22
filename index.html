@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SlotMi — Advanced Automation for Visa Appointment Booking</title>
-<meta name="description" content="SlotMi is an advanced Windows desktop application that monitors visa appointment portals across 18 countries and 7 booking providers, alerts you on Telegram the instant a slot opens, and manages client cases through a built-in Office Operations layer.">
-<meta property="og:title" content="SlotMi — Advanced Automation for Visa Appointment Booking">
-<meta property="og:description" content="Background monitoring across BLS, TLS, VFS, Prenotami, GVC World, IVAC and Goethe-Institut. Instant Telegram alerts. Built-in Office Operations CRM.">
+<title>SlotMi — Enterprise Visa Booking Automation &amp; Tourism Office Management</title>
+<meta name="description" content="SlotMi brings visa appointment automation, traveler management, consular route coverage across 17 application countries and 14 providers, and tourism office operations together in one unified desktop platform.">
+<meta property="og:title" content="SlotMi — Enterprise Visa Booking Automation &amp; Tourism Office Management">
+<meta property="og:description" content="One unified desktop platform for visa booking automation, traveler CRM, and tourism office operations.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/og-image.jpg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="640">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SlotMi — Advanced Automation for Visa Appointment Booking">
-<meta name="twitter:description" content="Never miss a visa appointment slot again. Background monitoring, instant Telegram alerts, and a built-in Office Operations CRM.">
+<meta name="twitter:title" content="SlotMi — Enterprise Visa Booking Automation &amp; Tourism Office Management">
+<meta name="twitter:description" content="One unified desktop platform for visa booking automation, traveler CRM, and tourism office operations.">
 <meta property="twitter:image" content="assets/og-image.jpg">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/favicon.svg">
@@ -24,24 +24,30 @@
 </head>
 <body>
 
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#overview">Skip to content</a>
 
+<!-- =========================================================
+     SECTION 1: HEADER AND NAVIGATION
+     ========================================================= -->
 <div class="nav-wrap">
   <header class="nav" id="siteNav">
-    <a href="#main" class="nav__brand" aria-label="SlotMi home">
+    <a href="#overview" class="nav__brand" aria-label="SlotMi home">
       <span class="slotmi" aria-hidden="true">
         <span class="slotmi__word"><span class="slotmi__ex">Slot</span><span class="slotmi__rim">Slot</span><span class="slotmi__face">Slot</span></span><span class="slotmi__word"><span class="slotmi__ex">Mi</span><span class="slotmi__rim">Mi</span><span class="slotmi__face">Mi</span></span>
       </span>
     </a>
     <nav class="nav__links" aria-label="Primary">
-      <a href="#product">Product</a>
+      <a href="#overview">Overview</a>
+      <a href="#platforms">Supported Platforms</a>
       <a href="#coverage">Coverage</a>
-      <a href="#features">Features</a>
-      <a href="#office">Office Layer</a>
-      <a href="#faq">FAQ</a>
+      <a href="#modules">Core Modules</a>
+      <a href="#directory">Feature Directory</a>
+      <a href="#categories">Visa Categories</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#contact">Contact</a>
     </nav>
     <div class="nav__actions">
-      <a href="#download" class="btn btn--pill btn--sm">Download</a>
+      <a href="#download" class="btn btn--pill btn--sm">Download SlotMi</a>
       <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
@@ -50,360 +56,768 @@
 </div>
 
 <div class="mobile-menu" id="mobileMenu" hidden>
-  <a href="#product">Product</a>
+  <a href="#overview">Overview</a>
+  <a href="#platforms">Supported Platforms</a>
   <a href="#coverage">Coverage</a>
-  <a href="#features">Features</a>
-  <a href="#office">Office Layer</a>
-  <a href="#faq">FAQ</a>
-  <a href="#download" class="btn btn--primary btn--sm">Download for Windows</a>
+  <a href="#modules">Core Modules</a>
+  <a href="#directory">Feature Directory</a>
+  <a href="#categories">Visa Categories</a>
+  <a href="#workflow">Workflow</a>
+  <a href="#contact">Contact</a>
+  <a href="#download" class="btn btn--primary btn--sm">Download SlotMi</a>
 </div>
 
 <main id="main">
 
-  <section class="hero" id="hero">
+  <!-- =========================================================
+       SECTION 2: HERO — PRODUCT INTRODUCTION
+       ========================================================= -->
+  <section class="hero" id="overview">
     <div class="hero__bg" aria-hidden="true">
       <div class="hero__bg-grid"></div>
       <div class="hero__bg-glow hero__bg-glow--a"></div>
       <div class="hero__bg-glow hero__bg-glow--b"></div>
     </div>
     <div class="hero__inner">
-      <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Advanced Booking Platform</p>
-      <h1 class="hero__title">The complete platform<br>for automated bookings.</h1>
+      <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Enterprise Visa Automation &amp; Office ERP</p>
+      <h1 class="hero__title">One Platform for Visa Automation and Tourism Office Management</h1>
       <p class="hero__lede">
-        SlotMi is a full automation platform for managing accounts, teams, proxies, files,
-        and appointment bookings &mdash; <strong>BLS, VFS and TLS</strong> supported &mdash; all from one powerful desktop application.
-        From login to final submission, every step is handled automatically.
+        SlotMi brings visa appointment automation, traveler management, consular route coverage,
+        and tourism office operations together in one unified desktop platform.
       </p>
       <div class="hero__actions">
         <a href="#download" class="btn btn--primary btn--lg" id="heroDownloadBtn">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
-          Download for Windows
+          Download SlotMi
         </a>
-        <a href="https://t.me/SlotsScraps" class="btn btn--outline btn--lg" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 3 3 10.5l6.5 2.5"/><path d="M21 3 13 21l-3.5-8L3 10.5"/></svg>
-          Talk to us on Telegram
+        <a href="#modules" class="btn btn--outline btn--lg">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Explore Features
         </a>
       </div>
       <p class="hero__meta">
-        <span>Desktop application</span>
+        <span>Windows &amp; Android Supported</span>
         <span class="hero__meta-sep" aria-hidden="true">&middot;</span>
-        <span>SaaS infrastructure</span>
+        <span>14 Consular Platforms Integrated</span>
         <span class="hero__meta-sep" aria-hidden="true">&middot;</span>
-        <span>Continuous updates &amp; synchronization</span>
+        <span>53 Consular Routes Monitored</span>
       </p>
+
+      <!-- SlotMi Automated Execution Pipeline Workflow -->
+      <div class="workflow-pipeline" aria-label="SlotMi Automated Consular Booking Pipeline">
+        <div class="workflow-pipeline__bar">
+          <div class="workflow-pipeline__controls">
+            <span class="workflow-pipeline__dot workflow-pipeline__dot--red"></span>
+            <span class="workflow-pipeline__dot workflow-pipeline__dot--yellow"></span>
+            <span class="workflow-pipeline__dot workflow-pipeline__dot--green"></span>
+          </div>
+          <span class="workflow-pipeline__title">SlotMi Engine &mdash; Automated Consular Execution Pipeline</span>
+          <span class="workflow-pipeline__status"><span class="workflow-pipeline__status-dot"></span> Pipeline Ready</span>
+        </div>
+
+        <div class="workflow-pipeline__body">
+          <div class="workflow-pipeline__intro">
+            <div>
+              <span class="pipeline-kicker">End-to-End Autonomous Booking Flow</span>
+              <h3 class="pipeline-heading">From Passport Intake to Verified Appointment in 6 Seamless Steps</h3>
+            </div>
+            <div class="pipeline-pill-group">
+              <span class="pipeline-tag">Multi-Threaded</span>
+              <span class="pipeline-tag">Passport-Matched Proxies</span>
+              <span class="pipeline-tag">Automated Biometrics</span>
+            </div>
+          </div>
+
+          <div class="pipeline-grid">
+            <!-- Step 1 -->
+            <div class="pipeline-card">
+              <div class="pipeline-card__header">
+                <span class="pipeline-card__step">01</span>
+                <span class="pipeline-badge">Multi-Account</span>
+              </div>
+              <div class="pipeline-card__icon-wrap">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h4 class="pipeline-card__title">Multi-Account &amp; Passport Intake</h4>
+              <p class="pipeline-card__desc">Add unlimited traveler profiles and provider accounts with passport numbers and nationality records organized in central dossiers.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="pipeline-card pipeline-card--highlight">
+              <div class="pipeline-card__header">
+                <span class="pipeline-card__step">02</span>
+                <span class="pipeline-badge pipeline-badge--accent">Smart Proxy Gen</span>
+              </div>
+              <div class="pipeline-card__icon-wrap">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <h4 class="pipeline-card__title">Passport-Matched Proxy Generator</h4>
+              <p class="pipeline-card__desc">Generates dedicated, clean residential proxies dynamically mapped to match each applicant's passport address and country jurisdiction.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="pipeline-card">
+              <div class="pipeline-card__header">
+                <span class="pipeline-card__step">03</span>
+                <span class="pipeline-badge">Execution</span>
+              </div>
+              <div class="pipeline-card__icon-wrap">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <h4 class="pipeline-card__title">One-Click Task Trigger ("Run")</h4>
+              <p class="pipeline-card__desc">A single press on "Run" immediately activates multi-threaded scheduling tasks, initiating concurrent surveillance across target portals.</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="pipeline-card">
+              <div class="pipeline-card__header">
+                <span class="pipeline-card__step">04</span>
+                <span class="pipeline-badge">Chrome Engine</span>
+              </div>
+              <div class="pipeline-card__icon-wrap">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" y1="8" x2="12" y2="8"/><line x1="3.95" y1="6.06" x2="8.54" y2="14"/><line x1="10.88" y1="21.94" x2="15.46" y2="14"/></svg>
+              </div>
+              <h4 class="pipeline-card__title">Automated Chrome Sessions</h4>
+              <p class="pipeline-card__desc">Autonomous, fingerprint-protected Chrome instances open in parallel, maintaining isolated session cookies and local headers per account.</p>
+            </div>
+
+            <!-- Step 5 -->
+            <div class="pipeline-card pipeline-card--highlight">
+              <div class="pipeline-card__header">
+                <span class="pipeline-card__step">05</span>
+                <span class="pipeline-badge pipeline-badge--accent">Automated Bypass</span>
+              </div>
+              <div class="pipeline-card__icon-wrap">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+              </div>
+              <h4 class="pipeline-card__title">Queue, OTP &amp; Selfie Clearance</h4>
+              <p class="pipeline-card__desc">Instantly navigates portal queues, intercepts OTP codes, and clears live camera selfie and biometric verification hurdles without human delay.</p>
+            </div>
+
+            <!-- Step 6 -->
+            <div class="pipeline-card">
+              <div class="pipeline-card__header">
+                <span class="pipeline-card__step">06</span>
+                <span class="pipeline-badge">Success</span>
+              </div>
+              <div class="pipeline-card__icon-wrap">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              </div>
+              <h4 class="pipeline-card__title">Confirmed Appointment &amp; Slip</h4>
+              <p class="pipeline-card__desc">Locks the slot reservation, generates official appointment sheets, logs payment and client balance records, and dispatches push alerts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <section class="section" id="product">
+  <!-- =========================================================
+       SECTION 3: PLATFORM STATISTICS
+       ========================================================= -->
+  <section class="stats-section" id="stats">
     <div class="section__inner">
-      <div class="product-layout">
-        <div class="product-copy">
-          <p class="eyebrow">What it is</p>
-          <h2 class="section__title">One platform. Every step automated.</h2>
-          <p class="section__text">
-            SlotMi is a complete automation platform &mdash; not a basic script or browser extension.
-            It handles the entire appointment booking process from login to final submission,
-            with automatic OTP handling, CAPTCHA solving, slot detection, form filling, and submission.
-          </p>
-          <p class="section__text">
-            Built for agencies and teams: manage multiple accounts, share access with your office,
-            organize files and applicant data, rotate proxies automatically, and monitor everything
-            from a <strong>live dashboard</strong> &mdash; all in one desktop application backed by
-            <strong>SaaS infrastructure</strong>.
-          </p>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-card__number">14</div>
+          <div class="stat-card__label">Supported Platforms</div>
+          <p class="stat-card__desc">Visa booking portals and consular submission engines natively integrated.</p>
         </div>
-        <ul class="check-grid">
-          <li>Fully automated booking &mdash; login to submission, no manual steps</li>
-          <li>BLS, VFS and TLS support across 18 countries</li>
-          <li>Built-in proxy generator with automatic IP rotation</li>
-          <li>Team system with permissions, shared accounts, and file management</li>
-        </ul>
+        <div class="stat-card">
+          <div class="stat-card__number">53</div>
+          <div class="stat-card__label">Geographic Routes</div>
+          <p class="stat-card__desc">Dedicated consular corridors monitored with regional appointment rules.</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">85+</div>
+          <div class="stat-card__label">Visa Types</div>
+          <p class="stat-card__desc">From tourism and short-stay to employment, digital nomad, and family reunification.</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__number">17</div>
+          <div class="stat-card__label">Application Countries</div>
+          <p class="stat-card__desc">Origin countries supported across North Africa, South Asia, Southeast Asia, and Europe.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section section--tight" id="benefits">
+  <!-- =========================================================
+       SECTION 4: SUPPORTED PLATFORMS
+       ========================================================= -->
+  <section class="section" id="platforms">
     <div class="section__inner">
-      <div class="benefit-row">
-        <div class="benefit-card">
-          <div class="benefit-card__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      <div class="section__head">
+        <p class="eyebrow">Provider Integrations</p>
+        <h2 class="section__title">14 Supported Visa and Consular Platforms</h2>
+        <p class="section__text">
+          SlotMi connects directly to leading visa appointment outsourcing providers and official government consular portals.
+        </p>
+      </div>
+      <div class="platform-grid">
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">01</span>
+            <span class="provider-tag provider-tag--vfs">VFS Global</span>
           </div>
-          <h3 class="benefit-card__title">Fully automated from start to finish</h3>
-          <p class="benefit-card__text">Login, OTP, CAPTCHA, slot detection, form filling, and final submission &mdash; all handled automatically with one click.</p>
+          <h3 class="platform-card__name">VFS Global</h3>
+          <p class="platform-card__desc">Global visa outsourcing partner handling Schengen, United Kingdom, and international consular missions across multiple origin countries.</p>
         </div>
-        <div class="benefit-card">
-          <div class="benefit-card__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M3 21v-1a7 7 0 0 1 7-7h4a7 7 0 0 1 7 7v1"/></svg>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">02</span>
+            <span class="provider-tag provider-tag--bls">BLS International</span>
           </div>
-          <h3 class="benefit-card__title">Multi-account and team management</h3>
-          <p class="benefit-card__text">Run multiple accounts simultaneously and share the platform with your entire office team &mdash; with role-based permissions.</p>
+          <h3 class="platform-card__name">BLS International</h3>
+          <p class="platform-card__desc">Specialized consular appointment processing for Spanish visa application centers across North Africa, MENA, and South Asia corridors.</p>
         </div>
-        <div class="benefit-card">
-          <div class="benefit-card__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">03</span>
+            <span class="provider-tag provider-tag--tls">TLScontact</span>
           </div>
-          <h3 class="benefit-card__title">Built-in proxy generator and IP rotation</h3>
-          <p class="benefit-card__text">Generate and manage proxies directly inside the app &mdash; with smart automatic IP rotation for every session.</p>
+          <h3 class="platform-card__name">TLScontact</h3>
+          <p class="platform-card__desc">European visa application centers managing French, German, and Belgian consular appointment schedules and document verification.</p>
         </div>
-        <div class="benefit-card">
-          <div class="benefit-card__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">04</span>
+            <span class="provider-tag">Almaviva</span>
           </div>
-          <h3 class="benefit-card__title">Live dashboard and smart notifications</h3>
-          <p class="benefit-card__text">Monitor accounts, tasks, slots, and bookings in real time &mdash; with instant alerts for every important event.</p>
+          <h3 class="platform-card__name">Almaviva</h3>
+          <p class="platform-card__desc">Official consular service operator managing Italian and European visa appointment workflows and applicant biometric slots.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">05</span>
+            <span class="provider-tag">Capago</span>
+          </div>
+          <h3 class="platform-card__name">Capago</h3>
+          <p class="platform-card__desc">Authorized visa outsourcing service processing applications and appointment scheduling for French and European representations.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">06</span>
+            <span class="provider-tag">Prenot@Mi</span>
+          </div>
+          <h3 class="platform-card__name">Prenot@Mi</h3>
+          <p class="platform-card__desc">Official Italian Ministry of Foreign Affairs (MAECI) digital portal for embassy and consulate appointment bookings worldwide.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">07</span>
+            <span class="provider-tag">US Visa / AIS</span>
+          </div>
+          <h3 class="platform-card__name">US Visa Scheduling / AIS</h3>
+          <p class="platform-card__desc">Official United States Department of State consular appointment scheduling service for non-immigrant and immigrant visas.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">08</span>
+            <span class="provider-tag">GVC World</span>
+          </div>
+          <h3 class="platform-card__name">GVC World</h3>
+          <p class="platform-card__desc">Global Visa Center World managing Greek consular and Schengen visa application centers and appointment reservation schedules.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">09</span>
+            <span class="provider-tag">IVAC</span>
+          </div>
+          <h3 class="platform-card__name">IVAC</h3>
+          <p class="platform-card__desc">Indian Visa Application Center network processing visa applications, travel permits, and consular submissions across regional hubs.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">10</span>
+            <span class="provider-tag">Alhind / ICAC</span>
+          </div>
+          <h3 class="platform-card__name">Alhind / ICAC</h3>
+          <p class="platform-card__desc">Specialized consular and visa application management centers handling travel documentation across South Asian routes.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">11</span>
+            <span class="provider-tag">e-Consular</span>
+          </div>
+          <h3 class="platform-card__name">e-Consular</h3>
+          <p class="platform-card__desc">Official electronic consular platform supporting appointment validation and application scheduling for Latin American and Portuguese missions.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">12</span>
+            <span class="provider-tag">Agendamentos Online</span>
+          </div>
+          <h3 class="platform-card__name">Agendamentos Online</h3>
+          <p class="platform-card__desc">Dedicated consular appointment scheduling portal for Portuguese diplomatic missions and European residency applications.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">13</span>
+            <span class="provider-tag">MiCo / SRE</span>
+          </div>
+          <h3 class="platform-card__name">MiCo / SRE</h3>
+          <p class="platform-card__desc">Mexican Secretariat of Foreign Affairs (SRE) consular appointment system for visa, passport, and legalization processing.</p>
+        </div>
+        <div class="platform-card">
+          <div class="platform-card__header">
+            <span class="platform-card__num">14</span>
+            <span class="provider-tag">Goethe-Institut</span>
+          </div>
+          <h3 class="platform-card__name">Goethe-Institut</h3>
+          <p class="platform-card__desc">Official examination scheduling and seat reservation platform for German language proficiency certifications (CEFR levels A1 through C2).</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- =========================================================
+       SECTION 5: GEOGRAPHIC COVERAGE
+       ========================================================= -->
   <section class="section" id="coverage">
     <div class="section__inner">
       <div class="section__head">
-        <p class="eyebrow">Coverage</p>
-        <h2 class="section__title">Built for 18 countries. Wired into 7 booking systems.</h2>
-        <p class="section__text section__text--wide">
-          SlotMi supports users operating from the following countries, each configured
-          against the specific visa portals relevant to their routes.
+        <p class="eyebrow">Geographic Scope</p>
+        <h2 class="section__title">17 Application Countries Across 53 Consular Routes</h2>
+        <p class="section__text">
+          SlotMi is engineered to clearly distinguish between where traveler applications originate and where consular submissions are directed.
         </p>
       </div>
 
-      <div class="region-tabs" role="tablist" aria-label="Coverage regions">
-        <button class="region-tab is-active" role="tab" aria-selected="true" aria-controls="region-0" id="tab-0">North Africa &amp; MENA</button>
-        <button class="region-tab" role="tab" aria-selected="false" aria-controls="region-1" id="tab-1">South Asia</button>
-        <button class="region-tab" role="tab" aria-selected="false" aria-controls="region-2" id="tab-2">Southeast Asia</button>
-        <button class="region-tab" role="tab" aria-selected="false" aria-controls="region-3" id="tab-3">Europe &amp; Central Asia</button>
-      </div>
-
-      <div class="region-panels">
-        <div class="region-panel is-active" id="region-0" role="tabpanel" aria-labelledby="tab-0">
-          <ul class="country-grid">
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/eg.png" width="24" height="18" loading="lazy" alt="">Egypt</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/dz.png" width="24" height="18" loading="lazy" alt="">Algeria</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/ma.png" width="24" height="18" loading="lazy" alt="">Morocco</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/tn.png" width="24" height="18" loading="lazy" alt="">Tunisia</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/mr.png" width="24" height="18" loading="lazy" alt="">Mauritania</li>
-          </ul>
-        </div>
-        <div class="region-panel" id="region-1" role="tabpanel" aria-labelledby="tab-1" hidden>
-          <ul class="country-grid">
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/pk.png" width="24" height="18" loading="lazy" alt="">Pakistan</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/in.png" width="24" height="18" loading="lazy" alt="">India</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/bd.png" width="24" height="18" loading="lazy" alt="">Bangladesh</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/np.png" width="24" height="18" loading="lazy" alt="">Nepal</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/lk.png" width="24" height="18" loading="lazy" alt="">Sri Lanka</li>
-          </ul>
-        </div>
-        <div class="region-panel" id="region-2" role="tabpanel" aria-labelledby="tab-2" hidden>
-          <ul class="country-grid">
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/my.png" width="24" height="18" loading="lazy" alt="">Malaysia</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/id.png" width="24" height="18" loading="lazy" alt="">Indonesia</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/ph.png" width="24" height="18" loading="lazy" alt="">Philippines</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/th.png" width="24" height="18" loading="lazy" alt="">Thailand</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/vn.png" width="24" height="18" loading="lazy" alt="">Vietnam</li>
-          </ul>
-        </div>
-        <div class="region-panel" id="region-3" role="tabpanel" aria-labelledby="tab-3" hidden>
-          <ul class="country-grid">
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/gb.png" width="24" height="18" loading="lazy" alt="">United Kingdom</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/nl.png" width="24" height="18" loading="lazy" alt="">Netherlands</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/tr.png" width="24" height="18" loading="lazy" alt="">Turkey</li>
-            <li class="country-chip"><img src="https://flagcdn.com/24x18/uz.png" width="24" height="18" loading="lazy" alt="">Uzbekistan</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="providers" id="providers">
-        <h3 class="providers__title">Booking providers</h3>
-        <div class="provider-grid">
-          <div class="provider-card">
-            <span class="provider-tag provider-tag--bls">BLS International</span>
-            <p>Spanish visa appointments &mdash; <code>blsspainvisa.com</code> and country-specific portals &mdash; across most MENA routes.</p>
-          </div>
-          <div class="provider-card">
-            <span class="provider-tag provider-tag--tls">TLS Contact</span>
-            <p>French, German and Belgian visa appointments via <code>tlscontact.com</code>.</p>
-          </div>
-          <div class="provider-card">
-            <span class="provider-tag provider-tag--vfs">VFS Global</span>
-            <p>Schengen and US visa appointments across multiple countries via <code>visa.vfsglobal.com</code>.</p>
-          </div>
-          <div class="provider-card">
-            <span class="provider-tag">Prenotami</span>
-            <p>The Italian government portal, <code>prenotami.esteri.it</code> &mdash; used for Tunisia routes to Italy.</p>
-          </div>
-          <div class="provider-card">
-            <span class="provider-tag">GVC World</span>
-            <p>Greece visa appointments via <code>gvcworld.eu</code> &mdash; used for Pakistan routes to Greece.</p>
-          </div>
-          <div class="provider-card">
-            <span class="provider-tag">IVAC</span>
-            <p>Indian Visa Application Centers &mdash; used for Bangladesh routes to India.</p>
-          </div>
-          <div class="provider-card">
-            <span class="provider-tag">Goethe-Institut</span>
-            <p>German language exam bookings (A1&ndash;C2) via <code>goethe.de</code> &mdash; used for Tunisia routes to Germany.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="features">
-    <div class="section__inner">
-      <div class="section__head">
-        <p class="eyebrow">Under the hood</p>
-        <h2 class="section__title">A complete automation platform, built to perform.</h2>
-      </div>
-      <div class="bento">
-        <article class="bento__card bento__card--wide">
-          <span class="bento__index" aria-hidden="true">01</span>
-          <h3>Fully Automated Booking</h3>
-          <ul class="feature-list">
-            <li><strong>End-to-end automation</strong> &mdash; complete booking process from login to final submission, with no manual steps required.</li>
-            <li><strong>Automatic login &amp; session handling</strong> &mdash; logs into accounts and manages sessions across the entire workflow.</li>
-            <li><strong>Automatic OTP handling</strong> &mdash; intercepts and processes one-time passwords during the booking flow.</li>
-            <li><strong>Automatic CAPTCHA solving</strong> &mdash; integrated CAPTCHA processing at every stage of the booking process.</li>
-            <li><strong>Automatic slot detection</strong> &mdash; continuously scans for available appointment slots across all configured portals.</li>
-            <li><strong>Automatic date &amp; time selection</strong> &mdash; picks the preferred available slot as soon as it is detected.</li>
-            <li><strong>Automatic form filling</strong> &mdash; completes all required fields and booking questions without human input.</li>
-            <li><strong>Automatic submit &amp; booking</strong> &mdash; submits the application and completes the booking process automatically.</li>
-            <li><strong>One-click automation</strong> &mdash; start the entire workflow with a single action.</li>
-          </ul>
-        </article>
-        <article class="bento__card">
-          <span class="bento__index" aria-hidden="true">02</span>
-          <h3>Proxy &amp; Connection Management</h3>
-          <ul class="feature-list">
-            <li><strong>Built-in Proxy Generator</strong> &mdash; generate and manage proxies directly inside the application, no external tools needed.</li>
-            <li><strong>Automatic IP rotation</strong> &mdash; smart IP rotation for seamless connection management across all sessions.</li>
-            <li><strong>BLS / VFS / TLS support</strong> &mdash; automated booking across all major supported centers and countries.</li>
-            <li><strong>Selfie &amp; Biometric Bypass</strong> &mdash; handles live camera stream interception for portals requiring photo verification.</li>
-            <li><strong>Cloudflare bypass</strong> &mdash; browser spoofing to clear Cloudflare v2 challenges automatically.</li>
-          </ul>
-        </article>
-        <article class="bento__card">
-          <span class="bento__index" aria-hidden="true">03</span>
-          <h3>Account &amp; Team Management</h3>
-          <ul class="feature-list">
-            <li><strong>Multi-account management</strong> &mdash; manage multiple accounts simultaneously from one central dashboard.</li>
-            <li><strong>Team system</strong> &mdash; share the platform with your office or team and manage accounts and files together.</li>
-            <li><strong>File &amp; account management</strong> &mdash; keep all accounts, files, and applicant data organized in one place.</li>
-            <li><strong>Team permissions</strong> &mdash; control access and permissions for each individual team member.</li>
-            <li><strong>Session management</strong> &mdash; efficiently manage account sessions and active workflows at scale.</li>
-          </ul>
-        </article>
-        <article class="bento__card bento__card--tall">
-          <span class="bento__index" aria-hidden="true">04</span>
-          <h3>Platform &amp; Infrastructure</h3>
-          <ul class="feature-list">
-            <li><strong>Live dashboard</strong> &mdash; monitor accounts, tasks, slots, bookings, and system status in real time.</li>
-            <li><strong>Smart notifications</strong> &mdash; receive instant alerts for important events and booking status changes.</li>
-            <li><strong>Desktop application</strong> &mdash; a full desktop app, not a basic script or browser extension.</li>
-            <li><strong>SaaS infrastructure</strong> &mdash; centralized system with synchronization and continuous updates.</li>
-            <li><strong>Scalable architecture</strong> &mdash; built for agencies and teams managing large numbers of accounts simultaneously.</li>
-          </ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section office" id="office">
-    <div class="section__inner">
-      <div class="office-layout">
-        <div class="office-intro">
-          <p class="eyebrow eyebrow--accent">The second layer</p>
-          <h2 class="section__title">SlotMi isn&rsquo;t just a slot checker.</h2>
-          <p class="section__text">
-            Every install includes a complete Office Operations layer &mdash; built for agencies managing
-            client cases alongside their monitoring sessions.
+      <div class="geo-layout">
+        <!-- Origin Countries -->
+        <div class="geo-card">
+          <h3 class="geo-card__title">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            17 Application Countries (Origins)
+          </h3>
+          <p class="geo-card__subtitle">
+            Agencies operate SlotMi from these 17 origin territories, configured with localized consular channels and regional booking hubs:
           </p>
+
+          <div class="region-tabs" role="tablist" aria-label="Coverage regions">
+            <button class="region-tab is-active" role="tab" aria-selected="true" aria-controls="region-0" id="tab-0">North Africa &amp; MENA</button>
+            <button class="region-tab" role="tab" aria-selected="false" aria-controls="region-1" id="tab-1">South Asia</button>
+            <button class="region-tab" role="tab" aria-selected="false" aria-controls="region-2" id="tab-2">Southeast Asia</button>
+            <button class="region-tab" role="tab" aria-selected="false" aria-controls="region-3" id="tab-3">Europe &amp; Central Asia</button>
+          </div>
+
+          <div class="region-panels">
+            <div class="region-panel is-active" id="region-0" role="tabpanel" aria-labelledby="tab-0">
+              <ul class="country-grid">
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/eg.png" width="24" height="18" loading="lazy" alt="">Egypt</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/dz.png" width="24" height="18" loading="lazy" alt="">Algeria</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/ma.png" width="24" height="18" loading="lazy" alt="">Morocco</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/tn.png" width="24" height="18" loading="lazy" alt="">Tunisia</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/mr.png" width="24" height="18" loading="lazy" alt="">Mauritania</li>
+              </ul>
+            </div>
+            <div class="region-panel" id="region-1" role="tabpanel" aria-labelledby="tab-1" hidden>
+              <ul class="country-grid">
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/pk.png" width="24" height="18" loading="lazy" alt="">Pakistan</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/in.png" width="24" height="18" loading="lazy" alt="">India</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/bd.png" width="24" height="18" loading="lazy" alt="">Bangladesh</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/np.png" width="24" height="18" loading="lazy" alt="">Nepal</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/lk.png" width="24" height="18" loading="lazy" alt="">Sri Lanka</li>
+              </ul>
+            </div>
+            <div class="region-panel" id="region-2" role="tabpanel" aria-labelledby="tab-2" hidden>
+              <ul class="country-grid">
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/my.png" width="24" height="18" loading="lazy" alt="">Malaysia</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/id.png" width="24" height="18" loading="lazy" alt="">Indonesia</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/ph.png" width="24" height="18" loading="lazy" alt="">Philippines</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/th.png" width="24" height="18" loading="lazy" alt="">Thailand</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/vn.png" width="24" height="18" loading="lazy" alt="">Vietnam</li>
+              </ul>
+            </div>
+            <div class="region-panel" id="region-3" role="tabpanel" aria-labelledby="tab-3" hidden>
+              <ul class="country-grid">
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/gb.png" width="24" height="18" loading="lazy" alt="">United Kingdom</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/nl.png" width="24" height="18" loading="lazy" alt="">Netherlands</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/tr.png" width="24" height="18" loading="lazy" alt="">Turkey</li>
+                <li class="country-chip"><img src="https://flagcdn.com/24x18/uz.png" width="24" height="18" loading="lazy" alt="">Uzbekistan</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="office-grid">
-          <div class="office-item">
-            <h3>Applications</h3>
-            <p>Client case management with a full dossier per applicant &mdash; overview, checklist, documents, financials and contact log.</p>
-          </div>
-          <div class="office-item">
-            <h3>Appointments</h3>
-            <p>Appointment scheduling and management, with a waiting list for cases pending a slot.</p>
-          </div>
-          <div class="office-item">
-            <h3>Documents</h3>
-            <p>A document vault per case for uploading and attaching client paperwork.</p>
-          </div>
-          <div class="office-item">
-            <h3>Payments</h3>
-            <p>Invoicing, payment recording, refund management and daily turnover reporting.</p>
-          </div>
-          <div class="office-item">
-            <h3>Staff</h3>
-            <p>Staff user management with roles, permissions and smart case assignment.</p>
-          </div>
-          <div class="office-item">
-            <h3>Reports</h3>
-            <p>Metrics, returning clients, missing documents, audit logs and global search.</p>
-          </div>
-          <div class="office-item">
-            <h3>Printing Center</h3>
-            <p>Print center functionality for case documentation.</p>
-          </div>
-          <div class="office-item">
-            <h3>Backup Vault</h3>
-            <p>Case-level file vault with path-traversal protection.</p>
+
+        <!-- Destination Countries -->
+        <div class="geo-card">
+          <h3 class="geo-card__title">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Supported Destination Consulates
+          </h3>
+          <p class="geo-card__subtitle">
+            Monitored consular representations and destination missions across the 53 operational routes:
+          </p>
+          <div class="geo-tag-group">
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/es.png" width="20" height="15" alt=""> Spain</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/fr.png" width="20" height="15" alt=""> France</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/de.png" width="20" height="15" alt=""> Germany</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/it.png" width="20" height="15" alt=""> Italy</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/gr.png" width="20" height="15" alt=""> Greece</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/pt.png" width="20" height="15" alt=""> Portugal</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/be.png" width="20" height="15" alt=""> Belgium</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/us.png" width="20" height="15" alt=""> United States</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/gb.png" width="20" height="15" alt=""> United Kingdom</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/in.png" width="20" height="15" alt=""> India</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/mx.png" width="20" height="15" alt=""> Mexico</span>
+            <span class="geo-tag"><img src="https://flagcdn.com/20x15/eu.png" width="20" height="15" alt=""> Schengen Zone</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section" id="how">
+  <!-- =========================================================
+       SECTION 6: CORE PRODUCT MODULES
+       ========================================================= -->
+  <section class="section" id="modules">
     <div class="section__inner">
       <div class="section__head">
-        <p class="eyebrow">Getting started</p>
-        <h2 class="section__title">From install to first alert.</h2>
+        <p class="eyebrow">Enterprise Architecture</p>
+        <h2 class="section__title">Core Product Modules</h2>
+        <p class="section__text">
+          SlotMi is structured into three integrated systems designed specifically for tourism agencies, visa consultants, and corporate travel offices.
+        </p>
       </div>
-      <ol class="timeline">
-        <li class="timeline__step">
-          <div class="timeline__marker" aria-hidden="true">01</div>
-          <div class="timeline__body">
-            <h3>Install &amp; configure</h3>
-            <p>Run <code>SlotMiBot-Setup.rar</code> and follow the six-step Setup Wizard &mdash; language, country, providers, notifications, and your first account.</p>
+
+      <!-- Module A: Visa Booking and Automation -->
+      <article class="module-block">
+        <div class="module-block__head">
+          <div>
+            <span class="module-badge">Module A</span>
+            <h3 class="module-block__title">Visa Booking and Automation</h3>
+            <p class="module-block__lead">
+              A high-precision background automation engine that continuously scans consular scheduling systems, verifies slot openings, and executes booking submissions with zero manual delay.
+            </p>
           </div>
-        </li>
-        <li class="timeline__step">
-          <div class="timeline__marker" aria-hidden="true">02</div>
-          <div class="timeline__body">
-            <h3>Launch monitoring</h3>
-            <p>Add proxy nodes, set your captcha service, and start automation &mdash; sessions run headlessly in the background per account.</p>
+        </div>
+        <div class="module-grid">
+          <div class="module-item">
+            <h4 class="module-item__title">Appointment Availability Monitoring</h4>
+            <p class="module-item__desc">24/7 autonomous surveillance across all configured provider portals to detect released appointment slots the second they become available.</p>
           </div>
-        </li>
-        <li class="timeline__step">
-          <div class="timeline__marker" aria-hidden="true">03</div>
-          <div class="timeline__body">
-            <h3>Get the alert</h3>
-            <p>The moment a slot opens, Telegram and your desktop notify you &mdash; while client cases stay tracked in the Office layer.</p>
+          <div class="module-item">
+            <h4 class="module-item__title">Supported Provider Integrations</h4>
+            <p class="module-item__desc">Native connectors built directly for 14 major global outsourcing portals including VFS Global, BLS International, and TLScontact.</p>
           </div>
-        </li>
-      </ol>
+          <div class="module-item">
+            <h4 class="module-item__title">Appointment Workflow Automation</h4>
+            <p class="module-item__desc">End-to-end execution covering session login, OTP interception, CAPTCHA resolution, form auto-fill, and final confirmation submission.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Account and Session Management</h4>
+            <p class="module-item__desc">Run unlimited provider accounts simultaneously with localized credentials, session token refresh, and individual execution parameters.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Proxy Management &amp; Testing</h4>
+            <p class="module-item__desc">Integrated HTTP/SOCKS5 proxy manager with smart per-task IP rotation, latency testing, and connection health diagnostics.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Telegram &amp; Discord Notifications</h4>
+            <p class="module-item__desc">Instant multi-channel notifications dispatched the moment slots are detected or bookings are confirmed, with custom webhook support.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Module B: Traveler CRM and Application Management -->
+      <article class="module-block">
+        <div class="module-block__head">
+          <div>
+            <span class="module-badge">Module B</span>
+            <h3 class="module-block__title">Traveler CRM and Application Management</h3>
+            <p class="module-block__lead">
+              A centralized traveler intelligence center that organizes client records, tracks passport compliance, and connects applicant dossiers directly to active booking sessions.
+            </p>
+          </div>
+        </div>
+        <div class="module-grid">
+          <div class="module-item">
+            <h4 class="module-item__title">Centralized Traveler Profiles</h4>
+            <p class="module-item__desc">Complete applicant dossier storing personal credentials, travel histories, contact details, and route preferences in one unified view.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Passport &amp; Expiration Tracking</h4>
+            <p class="module-item__desc">Automated passport validity audits with proactive expiration warnings to ensure travelers meet destination entry criteria prior to submission.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Individual, Family &amp; Group Cases</h4>
+            <p class="module-item__desc">Manage individual applicants or link family members and tour groups together for synchronized multi-applicant appointment submissions.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Excel / XLSX Bulk Import</h4>
+            <p class="module-item__desc">Import hundreds of traveler records instantly using standardized Excel templates, with automated data sanitization and field mapping.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Application Status Tracking</h4>
+            <p class="module-item__desc">Monitor the live lifecycle of every client application from intake and slot queue to confirmed appointment and passport collection.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Document &amp; File Organization</h4>
+            <p class="module-item__desc">A secure, case-linked digital document repository for attaching flight itineraries, hotel vouchers, employment letters, and bank statements.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Module C: Tourism Office ERP -->
+      <article class="module-block">
+        <div class="module-block__head">
+          <div>
+            <span class="module-badge">Module C</span>
+            <h3 class="module-block__title">Tourism Office ERP</h3>
+            <p class="module-block__lead">
+              Operational infrastructure built specifically for tourism agencies: manage daily cashier turnover, staff access permissions, client invoices, and documentation printing.
+            </p>
+          </div>
+        </div>
+        <div class="module-grid">
+          <div class="module-item">
+            <h4 class="module-item__title">Financial Records &amp; Payment Ledger</h4>
+            <p class="module-item__desc">Track consulting fees, visa center disbursements, deposits, and client balance settlements with full transaction transparency.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Invoices &amp; Office Revenue Reports</h4>
+            <p class="module-item__desc">Generate professional client invoices, monitor outstanding accounts receivable, and view daily agency turnover summaries.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Staff Accounts &amp; Permissions</h4>
+            <p class="module-item__desc">Role-based user access controls allowing agency managers to define permissions for operators, agents, accountants, and administrators.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Audit Logs &amp; Operational History</h4>
+            <p class="module-item__desc">Complete, immutable system event trail recording every account action, slot detection, user edit, and payment modification.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Dedicated Printing Center</h4>
+            <p class="module-item__desc">One-click formatted printing for appointment confirmation vouchers, customer receipts, visa application forms, and barcode labels.</p>
+          </div>
+          <div class="module-item">
+            <h4 class="module-item__title">Encrypted Backup &amp; Recovery</h4>
+            <p class="module-item__desc">Local SQLite database security fortified with AES-256 encryption, scheduled auto-backups, and point-in-time database restoration.</p>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
+  <!-- =========================================================
+       SECTION 7: DETAILED FEATURE DIRECTORY
+       ========================================================= -->
+  <section class="section" id="directory">
+    <div class="section__inner">
+      <div class="section__head">
+        <p class="eyebrow">Technical Capabilities</p>
+        <h2 class="section__title">Detailed Feature Directory</h2>
+        <p class="section__text">
+          A granular breakdown of the technical capabilities and system tools built into the SlotMi desktop platform.
+        </p>
+      </div>
+
+      <div class="feature-dir-grid">
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 01</span>
+          <h3 class="feature-dir-card__title">Customer and Passport Management</h3>
+          <p class="feature-dir-card__desc">Centralized storage for biometric details, passport numbers, issue/expiration dates, and nationality data. Features automatic passport validity checks (flagging passports with under 6 months validity) and family/group case linking for linked appointments.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 02</span>
+          <h3 class="feature-dir-card__title">Application Workflow Management</h3>
+          <p class="feature-dir-card__desc">Tracks the end-to-end progression of visa applications across standardized stages: Dossier Intake, Queueing, Slot Hunting, Booking Finalized, Documents Printed, and Case Completed. Ensures no client is overlooked during busy consular release windows.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 03</span>
+          <h3 class="feature-dir-card__title">Multi-Account and Session Management</h3>
+          <p class="feature-dir-card__desc">Execute concurrent booking tasks across multiple provider accounts without browser collision. Each account operates in an isolated environment with encrypted credential storage, automated session token persistence, and localized headers.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 04</span>
+          <h3 class="feature-dir-card__title">Proxy Management</h3>
+          <p class="feature-dir-card__desc">Integrated proxy pool manager supporting HTTP, HTTPS, and SOCKS5 protocols. Includes automated latency testing, failover retry routines, and per-task rotating IP assignment to maintain resilient connectivity and prevent rate-limiting bottlenecks.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 05</span>
+          <h3 class="feature-dir-card__title">Notifications and Webhooks</h3>
+          <p class="feature-dir-card__desc">Multi-channel alerting system that notifies agency operators the millisecond an appointment slot is detected or a booking is secured. Dispatches alerts through Telegram Bot API, Discord Webhooks, desktop banner notifications, and audible system alerts.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 06</span>
+          <h3 class="feature-dir-card__title">Printing Center</h3>
+          <p class="feature-dir-card__desc">Built-in document rendering engine optimized for office paperwork. Outputs formatted appointment confirmation sheets, applicant submission summaries, official payment receipts, and visa application barcode labels without external design tools.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 07</span>
+          <h3 class="feature-dir-card__title">Payments and Invoicing</h3>
+          <p class="feature-dir-card__desc">Full agency cashier module: record client service fees, consular charges, advance deposits, and outstanding balances. Generates clean PDF/printable invoices and calculates daily, weekly, and monthly office revenue metrics.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 08</span>
+          <h3 class="feature-dir-card__title">Staff and Permissions</h3>
+          <p class="feature-dir-card__desc">Multi-operator collaboration system designed for tourism offices. Administrators can create staff user accounts, assign specific client cases, and restrict access to financial reports, proxy configurations, or account credentials.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 09</span>
+          <h3 class="feature-dir-card__title">Audit Logs</h3>
+          <p class="feature-dir-card__desc">Comprehensive, immutable event auditing that timestamps every operation within the application. Logs include slot detection timestamps, booking attempts, configuration changes, staff logins, and financial record alterations for operational compliance.</p>
+        </div>
+
+        <div class="feature-dir-card">
+          <span class="feature-dir-card__num">DIR &middot; 10</span>
+          <h3 class="feature-dir-card__title">Backup and Recovery</h3>
+          <p class="feature-dir-card__desc">Enterprise-grade data safety: local AES-256 encrypted database architecture with path-traversal safeguards. Features automated daily database snapshots and one-click database export/restore to protect office records from hardware failure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 8: VISA CATEGORIES
+       ========================================================= -->
+  <section class="section" id="categories">
+    <div class="section__inner">
+      <div class="section__head">
+        <p class="eyebrow">Consular Route Classification</p>
+        <h2 class="section__title">85+ Supported Visa Types</h2>
+        <p class="section__text">
+          SlotMi is pre-configured with 245 specialized category entries to monitor and book specific appointment tracks across supported diplomatic missions.
+        </p>
+      </div>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <span class="category-card__badge">Category 01</span>
+          <h3 class="category-card__title">Tourism &amp; Short-Stay Visas</h3>
+          <p class="category-card__desc">Standard Schengen Type C, individual tourism, organized tour groups, and short-term sightseeing visits.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 02</span>
+          <h3 class="category-card__title">Work &amp; Employment Visas</h3>
+          <p class="category-card__desc">National Type D work permits, seasonal agricultural employment, corporate intra-company transfers, and professional contracts.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 03</span>
+          <h3 class="category-card__title">Student &amp; Education Visas</h3>
+          <p class="category-card__desc">University degree admissions, vocational training courses, language study permits, and academic exchange programs.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 04</span>
+          <h3 class="category-card__title">Family Visits &amp; Reunification</h3>
+          <p class="category-card__desc">Spouse joining visas, minor children reunification, dependent elderly parent visas, and private family visits.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 05</span>
+          <h3 class="category-card__title">EU Blue Card</h3>
+          <p class="category-card__desc">Specialized consular appointment tracks for highly qualified non-EU professionals with recognized European employment contracts.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 06</span>
+          <h3 class="category-card__title">Digital Nomad Visa (D8)</h3>
+          <p class="category-card__desc">Remote workers, digital entrepreneurs, and independent contractors seeking temporary and long-term European residency.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 07</span>
+          <h3 class="category-card__title">Passive Income &amp; Retirement (D7)</h3>
+          <p class="category-card__desc">Self-sustaining applicants with verifiable passive income, foreign pension earners, and retirement route submissions.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 08</span>
+          <h3 class="category-card__title">Job-Seeker Visas</h3>
+          <p class="category-card__desc">Dedicated entry permits enabling qualified professionals to seek employment locally within European destinations.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 09</span>
+          <h3 class="category-card__title">Medical Treatment Visas</h3>
+          <p class="category-card__desc">Urgent and scheduled medical travel appointments for patients receiving treatment in accredited foreign healthcare institutions.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 10</span>
+          <h3 class="category-card__title">Airport Transit Visas</h3>
+          <p class="category-card__desc">Type A airport transit documentation required for travelers passing through international transit zones of member states.</p>
+        </div>
+        <div class="category-card">
+          <span class="category-card__badge">Category 11</span>
+          <h3 class="category-card__title">Consular &amp; Residency Services</h3>
+          <p class="category-card__desc">Document legalization, apostille appointments, official passport renewals, and consular identity verification procedures.</p>
+        </div>
+      </div>
+
+      <div class="category-note">
+        <strong>Please Note:</strong> Visa category availability, appointment quotas, and submission rules vary by individual diplomatic mission and outsourcing center. SlotMi automates monitoring based on categories made accessible by the respective portal.
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 9: PRODUCT WORKFLOW
+       ========================================================= -->
+  <section class="section" id="workflow">
+    <div class="section__inner">
+      <div class="section__head">
+        <p class="eyebrow">Step-By-Step Process</p>
+        <h2 class="section__title">How Tourism Offices Use SlotMi</h2>
+        <p class="section__text">
+          A clear, standardized 5-step operational workflow designed to transition client cases from intake to confirmed booking with complete accountability.
+        </p>
+      </div>
+
+      <div class="workflow-grid">
+        <div class="workflow-card">
+          <div class="workflow-card__step">01</div>
+          <h3 class="workflow-card__title">Register &amp; Organize</h3>
+          <p class="workflow-card__desc">Input traveler profiles individually or bulk-import client lists via Excel/XLSX. SlotMi verifies passport validity and flags missing data.</p>
+        </div>
+        <div class="workflow-card">
+          <div class="workflow-card__step">02</div>
+          <h3 class="workflow-card__title">Prepare Case Dossier</h3>
+          <p class="workflow-card__desc">Assign destination country, provider portal, and specific visa category. Attach supporting paperwork directly into the client document vault.</p>
+        </div>
+        <div class="workflow-card">
+          <div class="workflow-card__step">03</div>
+          <h3 class="workflow-card__title">Configure Accounts</h3>
+          <p class="workflow-card__desc">Select provider credentials, link healthy proxy nodes, and set target booking parameters such as appointment date ranges.</p>
+        </div>
+        <div class="workflow-card">
+          <div class="workflow-card__step">04</div>
+          <h3 class="workflow-card__title">Automated Surveillance</h3>
+          <p class="workflow-card__desc">SlotMi conducts continuous background monitoring. When a slot appears, the system notifies your team via Telegram &amp; Discord instantly.</p>
+        </div>
+        <div class="workflow-card">
+          <div class="workflow-card__step">05</div>
+          <h3 class="workflow-card__title">Manage &amp; Finalize</h3>
+          <p class="workflow-card__desc">Automated submission confirms the slot. Print appointment slips and receipts, record client payments, and update case statuses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 10: DOWNLOAD CENTER
+       ========================================================= -->
   <section class="section download" id="download">
     <div class="section__inner">
       <div class="download-split">
         <div class="download-split__facts">
-          <p class="eyebrow">Get the app</p>
-          <h2 class="section__title">Download SlotMi.</h2>
+          <p class="eyebrow">Enterprise Desktop &amp; Mobile Platform</p>
+          <h2 class="section__title">Get Started with SlotMi</h2>
           <p class="section__text">
-            Available for Windows. No account required to install &mdash; activation is
-            handled with a serial key after purchase.
+            Bring visa appointment workflows and tourism office operations together with SlotMi.
+            Engineered natively for 64-bit Windows environments and Android mobile devices.
           </p>
           <dl class="download-facts">
-            <div><dt>Installer</dt><dd><code>SlotMiBot-Setup.rar</code></dd></div>
-            <div><dt>Current version</dt><dd><code>v2.3.10</code></dd></div>
-            <div><dt>Platform</dt><dd>Windows</dd></div>
-            <div><dt>Distribution</dt><dd>Direct Download</dd></div>
+            <div><dt>Windows Package</dt><dd><code>SlotMiBot-Setup.rar</code> (Windows 10/11 64-bit)</dd></div>
+            <div><dt>Android Package</dt><dd><code>SlotMi-Apk.apk</code> (Android APK)</dd></div>
+            <div><dt>Current Version</dt><dd><code>v2.3.10 (Production Release)</code></dd></div>
+            <div><dt>Architecture</dt><dd>Desktop &amp; Mobile Applications</dd></div>
+            <div><dt>Distribution</dt><dd>Direct Verified Download</dd></div>
           </dl>
         </div>
         <div class="download-split__actions">
@@ -411,53 +825,17 @@
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
             Download for Windows
           </a>
+          <a href="https://www.mediafire.com/file/3u7sl6vy276pstx/SlotMi-Apk.apk/file" class="btn btn--primary btn--lg" id="downloadAndroidBtn" data-download-android-url target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Download for Android
+          </a>
           <a href="https://wa.me/201200655872" class="btn btn--outline btn--lg" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.4 7.5L3 20l1.1-5.4A8.5 8.5 0 1 1 21 11.5Z"/></svg>
-            Ask about licensing on WhatsApp
+            Consult Licensing on WhatsApp
           </a>
-          <p class="download-note">A subscription and activation key are required to run automation. Contact us on Telegram or WhatsApp for licensing.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="faq">
-    <div class="section__inner">
-      <div class="faq-layout">
-        <div class="faq-intro">
-          <p class="eyebrow">Questions</p>
-          <h2 class="section__title">Frequently asked</h2>
-          <p class="section__text">Everything you need to know before getting started.</p>
-        </div>
-        <div class="faq-list">
-          <details class="faq-item">
-            <summary>What operating system does SlotMi require?</summary>
-            <p>Windows only. It installs as a native <code>.exe</code> desktop application.</p>
-          </details>
-          <details class="faq-item">
-            <summary>Is my data safe?</summary>
-            <p>Credentials and API keys are encrypted locally with AES-256, using a key derived from your device&rsquo;s hardware ID. Core functionality doesn&rsquo;t send data to external servers.</p>
-          </details>
-          <details class="faq-item">
-            <summary>Which visa portals are supported?</summary>
-            <p>BLS International, TLS Contact, VFS Global, Prenotami, GVC World, IVAC, and Goethe-Institut.</p>
-          </details>
-          <details class="faq-item">
-            <summary>Which countries are supported?</summary>
-            <p>18 origin countries: Egypt, Algeria, Morocco, Tunisia, Mauritania, Pakistan, India, Bangladesh, Nepal, Sri Lanka, Malaysia, Indonesia, Philippines, Thailand, Vietnam, United Kingdom, Netherlands, Turkey, and Uzbekistan.</p>
-          </details>
-          <details class="faq-item">
-            <summary>How do I get notified when a slot opens?</summary>
-            <p>Via a Telegram bot alert, with Windows desktop banner and sound notifications, and an optional SMTP email backup.</p>
-          </details>
-          <details class="faq-item">
-            <summary>Does it handle CAPTCHAs?</summary>
-            <p>Yes &mdash; through 2Captcha, CapMonster Cloud, Anti-Captcha, or a custom API endpoint, with manual, automatic or hybrid solving strategies.</p>
-          </details>
-          <details class="faq-item">
-            <summary>Do I need a subscription?</summary>
-            <p>Yes. Activation and an active subscription are required to run automation. Reach out via Telegram or WhatsApp to arrange licensing.</p>
-          </details>
+          <p class="download-note">
+            An active subscription and hardware-bound license activation key are required to run automated operations. Contact our licensing team on Telegram or WhatsApp to request credentials.
+          </p>
         </div>
       </div>
     </div>
@@ -465,33 +843,43 @@
 
 </main>
 
-<footer class="footer">
+<!-- =========================================================
+     SECTION 11: CONTACT AND FOOTER
+     ========================================================= -->
+<footer class="footer" id="contact">
   <div class="footer__inner">
     <div class="footer__col footer__col--brand">
-      <a href="#main" class="nav__brand" aria-label="SlotMi home">
+      <a href="#overview" class="nav__brand" aria-label="SlotMi home">
         <span class="slotmi slotmi--sm" aria-hidden="true">
           <span class="slotmi__word"><span class="slotmi__ex">Slot</span><span class="slotmi__rim">Slot</span><span class="slotmi__face">Slot</span></span><span class="slotmi__word"><span class="slotmi__ex">Mi</span><span class="slotmi__rim">Mi</span><span class="slotmi__face">Mi</span></span>
         </span>
       </a>
-      <p class="footer__tagline">Advanced booking automation for agencies and teams.</p>
+      <p class="footer__tagline">
+        Enterprise visa appointment automation and tourism office operations platform. Built for professional travel agencies, visa consultants, and corporate travel desks.
+      </p>
     </div>
     <div class="footer__col">
-      <p class="footer__col-title">Navigate</p>
-      <a href="#product">Product</a>
-      <a href="#coverage">Coverage</a>
-      <a href="#features">Features</a>
-      <a href="#office">Office Layer</a>
-      <a href="#faq">FAQ</a>
+      <p class="footer__col-title">Navigation</p>
+      <a href="#overview">Overview</a>
+      <a href="#platforms">Supported Platforms</a>
+      <a href="#coverage">Geographic Coverage</a>
+      <a href="#modules">Core Modules</a>
+      <a href="#directory">Feature Directory</a>
+      <a href="#categories">Visa Categories</a>
+      <a href="#workflow">Product Workflow</a>
     </div>
     <div class="footer__col">
-      <p class="footer__col-title">Contact</p>
-      <a href="https://t.me/SlotsScraps" target="_blank" rel="noopener">Telegram</a>
-      <a href="https://wa.me/201200655872" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="#download">Download</a>
+      <p class="footer__col-title">Contact &amp; Licensing</p>
+      <a href="https://t.me/SlotsScraps" target="_blank" rel="noopener">Official Telegram Channel</a>
+      <a href="https://wa.me/201200655872" target="_blank" rel="noopener">WhatsApp Direct Support</a>
+      <a href="#download">Download (Windows &amp; Android)</a>
     </div>
   </div>
   <div class="footer__bottom">
-    <p class="footer__copy">&copy; <span id="year"></span> SlotMi. Windows desktop application.</p>
+    <p class="footer__copy">&copy; <span id="year"></span> SlotMi. All rights reserved. Windows &amp; Android applications.</p>
+    <p class="footer__copy" style="margin-top: 6px; font-size: 11.5px; opacity: 0.75;">
+      Disclaimer: SlotMi is an independent desktop management and workflow automation platform. All third-party trademarks, service marks, and portal names referenced remain the property of their respective owners.
+    </p>
   </div>
 </footer>
 

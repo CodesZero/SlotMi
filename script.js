@@ -17,7 +17,8 @@
      This is the ONLY place the download destination needs to change —
      every "Download for Windows" button reads from it. */
   var CONFIG = {
-    DOWNLOAD_URL: 'https://www.mediafire.com/file/im67yx5of9rzstt/SlotMiBot-Setup.rar/file'
+    DOWNLOAD_URL: 'https://www.mediafire.com/file/im67yx5of9rzstt/SlotMiBot-Setup.rar/file',
+    DOWNLOAD_ANDROID_URL: 'https://www.mediafire.com/file/3u7sl6vy276pstx/SlotMi-Apk.apk/file'
   };
 
   /* ---------- 2. NAVIGATION ---------- */
@@ -46,8 +47,14 @@
   }
 
   /* ---------- 3. DOWNLOAD LINK WIRING ---------- */
-  document.querySelectorAll('[data-download-url], #heroDownloadBtn').forEach(function (btn) {
+  document.querySelectorAll('[data-download-url]').forEach(function (btn) {
     btn.setAttribute('href', CONFIG.DOWNLOAD_URL);
+    btn.setAttribute('target', '_blank');
+    btn.setAttribute('rel', 'noopener');
+  });
+
+  document.querySelectorAll('[data-download-android-url]').forEach(function (btn) {
+    btn.setAttribute('href', CONFIG.DOWNLOAD_ANDROID_URL);
     btn.setAttribute('target', '_blank');
     btn.setAttribute('rel', 'noopener');
   });

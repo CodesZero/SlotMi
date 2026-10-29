@@ -109,7 +109,7 @@ stateDiagram-v2
 </div>
 
 1. Go to the [**Download**](https://onlineunknowns.github.io/AutoBooking/#download) section.
-2. Download the latest `SlotMiBot-Setup.rar` (Windows).
+2. Download the latest `SlotMiBot-Setup.exe` (Windows).
 3. Follow the setup wizard or run directly.
 
 <br/>

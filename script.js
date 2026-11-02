@@ -17,7 +17,7 @@
      This is the ONLY place the download destination needs to change —
      every "Download for Windows" button reads from it. */
   var CONFIG = {
-    DOWNLOAD_URL: 'https://www.mediafire.com/file/3zu28esg5beassb/SlotMiBot-Setup.exe/file',
+    DOWNLOAD_URL: 'https://www.mediafire.com/file/vq1b4u9if3a84mq/SlotMiBot-Setup.exe/file',
     DOWNLOAD_ANDROID_URL: 'https://www.mediafire.com/file/3u7sl6vy276pstx/SlotMi-Apk.apk/file'
   };
 

@@ -18,7 +18,7 @@
      every "Download for Windows" button reads from it. */
   var CONFIG = {
     DOWNLOAD_URL: 'https://www.mediafire.com/file/xtr18mxouwdx2t7/SlotMiBot-Setup.exe/file',
-    DOWNLOAD_ANDROID_URL: 'https://www.mediafire.com/file/ifh300kbo43selm/SlotMi.apk/file'
+    DOWNLOAD_ANDROID_URL: 'https://www.mediafire.com/file/s3npufzc5szylau/SlotMi.apk/file'
   };
 
   /* ---------- 2. NAVIGATION ---------- */
